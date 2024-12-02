@@ -1,7 +1,7 @@
 name: geo_iran
-description: "A new Flutter package project."
+description: "A Flutter package providing detailed information about Iran's provinces and cities."
 version: 1.0.0
-homepage: 
+homepage: https://github.com/MohammadTaghipour/geo_iran
 
 environment:
   sdk: ^3.5.3

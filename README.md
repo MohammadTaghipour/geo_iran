@@ -1,39 +1,77 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# **geo_iran 🇮🇷**
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**geo_iran** is a Flutter package that provides detailed information about Iran's provinces and cities.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
+## ✨ Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Get information about all provinces of Iran.
+- With Enlish translations.
+- Easy to use and lightweight.
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
-## Usage
+## ⚙ Platform Support 
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+| 📱 Android | 🍎 iOS |  🍏 MacOS |  🌐 Web | 🐧 Linux | 💻 Windows |
+| :-----: | :-: | :---: | :-: | :---: | :----: |
+|   ✅    | ✅  |  ✅   | ✅  |  ✅   |   ✅   |
 
-```dart
-const like = 'sample';
+
+
+## 📦 Installation
+
+To use this package, add it to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  geo_iran: ^1.0.0
 ```
 
-## Additional information
+Then, run the following command to fetch the package:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```bash
+  flutter pub get
+```
+
+
+
+
+## 📚 Usage
+
+You can use the package to get information about provinces and cities. Below is an example:
+
+### example
+```dart
+import 'package:geo_iran/geo_iran.dart';
+
+void main() {
+  // Get all provinces
+  List<IranProvince> provinces = GeoIran.provinces;
+  print(provinces);
+
+  // Get all cities
+  List<IranCity> cities = GeoIran.cities;
+  print(cities);
+}
+```
+
+
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute, feel free to open a pull request or submit an issue.
+
+
+
+## 🛡️ License
+This project is licensed under the [MIT License](https://mit-license.org/).
+
+
+
+
+## 📧 Contact
+For questions, feedback, or support, please reach out:
+- **Developer**: Mohammad Taghipour
+- **Email**: taghipourmohammad7@gmail.com
