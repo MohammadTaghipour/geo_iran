@@ -1,4 +1,4 @@
-# **geo_iran 🇮🇷**
+# **geo_iran ![IR](https://github.com/MohammadTaghipour/geo_iran/blob/master/assets/iran_flag.png)**
 
 **geo_iran** is a Flutter package that provides detailed information about Iran's provinces and cities.
 
